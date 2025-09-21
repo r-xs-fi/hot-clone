@@ -1,0 +1,10 @@
+{
+	"supply_chain_descriptor": "source-code:https://github.com/benjojo/hot-clone",
+	"needs_privileged_because": "needs access to raw disk",
+	"usage_examples": [
+		{
+			"title": "Image a partition (migrate Raspberry Pi from SD card to SSD)",
+			"cmd": "/dev/sda > /dev/nvme0n1"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "hot-clone",
+	"meta": {
+		"description": "Container image for hot-clone - progressively image a mounted disk correctly without corruption. No LVM needed!",
+		"website": "https://blog.benjojo.co.uk/post/imaging-mounted-disk-volumes-live"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/hot-clone", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}
